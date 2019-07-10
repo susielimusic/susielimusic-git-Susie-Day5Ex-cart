@@ -7,8 +7,82 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <script type="text/javascript" src="./js/index.js"></script>
-  <title>Ironhack cart</title>
+  <title>Ironhack Shopping Cart</title>
 </head>
+
 <body>
+  <header class="main-header">
+    <h1>Ironhack Merchandising Shop</h1>
+  </header>
+<section> 
+  <div id="products-wrapper">
+
+    <div class="product-row flex-container">
+      <p class="product-title">Iron Bubblehead(L)</p>
+      <div>$
+        <span class="span-price-product">
+        25.00
+        </span>
+      </div>
+      <div>QTY
+          <input  type="text" class="quantity-product" placeholder="0" >
+      </div>
+      <div>$
+        <span class="span-price-per-product">0.00</span>
+      </div>
+      <div>
+        <button class="btn-remove">Remove</button>
+      </div>
+    </div>
+
+ 
+    <div class="product-row flex-container">
+      <p class="product-title">Iron Bubblehead(S)</p>
+      <div>$
+        <span class="span-price-product">
+        15.00
+        </span>
+      </div>
+      <div>QTY
+          <input type="text" class="quantity-product" placeholder="0" >
+      </div>
+      <div>$
+        <span class="span-price-per-product">0.00</span>
+      </div>
+      <div>
+        <button class="btn-remove">Remove</button>
+      </div>
+  </div> 
+
+  
+  </div> 
+  <button id="calc-prices-button">Calculate Prices</button>
+
+  <section>
+  <div class="flex-container">
+      <span class="updateCartTotal"><h2>Total Price:$<span id="total"></span></h2></span>
+  </div>  
+  </section>
+
+
+  <div class="flex-container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div>
+      <!-- create product button -->
+      <div id="create-new-items">
+        <input type="text" id="new-item-name" placeholder="Write item name here...">
+        <input type="text" id="new-item-price" placeholder="Write item price here...">
+        <button id="create-productrow-button">Create Product</button></div>
+    </div> 
+    </div> 
+
+    <div class="flex-container"></div>
+  <script type="text/javascript" src="./js/index.js" async></script>
+
+
+</div>
 </body>
 </html>

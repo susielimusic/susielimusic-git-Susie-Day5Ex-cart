@@ -1,3 +1,6 @@
+.main-header
+font-weight bold
+
 input {
   border: solid 1px black;
 }
@@ -24,13 +27,14 @@ input {
   border-radius: 4px;
 }
 
-.btn-success {
+#calc-prices-button {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    margin-left: 86%;
 }
 
-.btn-delete {
+.btn-remove {
     color: #fff;
     background-color: #CF000F;
     border-color: #CF000F;
@@ -39,3 +43,15 @@ input {
 .quantity {
   margin: 0 5px;
 }
+
+header h1 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
